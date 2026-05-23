@@ -1,0 +1,114 @@
+{
+  "hospital_name": "Chennai City Multispeciality Hospital",
+  "address": "Anna Salai, Chennai",
+  "departments": {
+    "cardiology": {
+      "location": "2nd Floor, Block A",
+      "timing": "9:00 AM - 5:00 PM",
+      "contact": "044-4210 1101"
+    },
+    "orthopedics": {
+      "location": "3rd Floor, Block A",
+      "timing": "9:00 AM - 6:00 PM",
+      "contact": "044-4210 1102"
+    },
+    "neurology": {
+      "location": "3rd Floor, Block B",
+      "timing": "10:00 AM - 5:00 PM",
+      "contact": "044-4210 1103"
+    },
+    "radiology": {
+      "location": "1st Floor, Block B",
+      "timing": "8:00 AM - 8:00 PM",
+      "contact": "044-4210 1104"
+    },
+    "laboratory": {
+      "location": "Ground Floor, Block C",
+      "timing": "7:00 AM - 8:00 PM",
+      "contact": "044-4210 1105"
+    },
+    "pharmacy": {
+      "location": "Ground Floor, Near Reception",
+      "timing": "8:00 AM - 10:00 PM",
+      "contact": "044-4210 1106"
+    },
+    "emergency": {
+      "location": "Ground Floor, Emergency Wing",
+      "timing": "24 Hours",
+      "contact": "044-4210 1111"
+    },
+    "general_medicine": {
+      "location": "1st Floor, Block A",
+      "timing": "9:00 AM - 5:00 PM",
+      "contact": "044-4210 1107"
+    },
+    "pediatrics": {
+      "location": "2nd Floor, Block B",
+      "timing": "9:00 AM - 4:00 PM",
+      "contact": "044-4210 1108"
+    },
+    "dermatology": {
+      "location": "2nd Floor, Block C",
+      "timing": "10:00 AM - 6:00 PM",
+      "contact": "044-4210 1109"
+    },
+    "ent": {
+      "location": "1st Floor, Block C",
+      "timing": "9:30 AM - 5:30 PM",
+      "contact": "044-4210 1110"
+    },
+    "gynecology": {
+      "location": "3rd Floor, Block C",
+      "timing": "9:00 AM - 5:00 PM",
+      "contact": "044-4210 1112"
+    },
+    "urology": {
+      "location": "4th Floor, Block A",
+      "timing": "10:00 AM - 5:00 PM",
+      "contact": "044-4210 1113"
+    },
+    "oncology": {
+      "location": "4th Floor, Block B",
+      "timing": "9:00 AM - 4:00 PM",
+      "contact": "044-4210 1114"
+    },
+    "physiotherapy": {
+      "location": "Ground Floor, Rehab Wing",
+      "timing": "8:00 AM - 6:00 PM",
+      "contact": "044-4210 1115"
+    }
+  },
+  "services": {
+    "ambulance": "24 Hours",
+    "blood_bank": "24 Hours",
+    "cafeteria": "7:00 AM - 9:00 PM",
+    "billing": "8:00 AM - 8:00 PM"
+  },
+  "faqs": [
+    {
+      "question": "Where is cardiology?",
+      "intent": "location",
+      "department": "cardiology"
+    },
+    {
+      "question": "What is radiology timing?",
+      "intent": "timing",
+      "department": "radiology"
+    },
+    {
+      "question": "Emergency contact number?",
+      "intent": "contact",
+      "department": "emergency"
+    },
+    {
+      "question": "Where is laboratory?",
+      "intent": "location",
+      "department": "laboratory"
+    },
+    {
+      "question": "Pharmacy timing?",
+      "intent": "timing",
+      "department": "pharmacy"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+[
+  {
+    "query": "Where is cardiology",
+    "response": "Cardiology is located at 2nd Floor, Block A."
+  },
+  {
+    "query": "Where is cafeteria?",
+    "response": "Sorry, I could not find that department."
+  },
+  {
+    "query": "ent number",
+    "response": "Ent contact number is 044-4210 1110."
+  },
+  {
+    "query": "ent number",
+    "response": "Ent contact number is 044-4210 1110."
+  },
+  {
+    "query": "cardiology",
+    "response": "Please ask about location, timing, or contact."
+  },
+  {
+    "query": "ent number",
+    "response": "Ent contact number is 044-4210 1110."
+  },
+  {
+    "query": "ent number",
+    "response": "Ent contact number is 044-4210 1110."
+  },
+  {
+    "query": "college",
+    "response": "Sorry, I could not find that department."
+  },
+  {
+    "query": "where is Cardiology",
+    "response": "Cardiology is located at 2nd Floor, Block A."
+  },
+  {
+    "query": "ENT number",
+    "response": "Ent contact number is 044-4210 1110."
+  },
+  {
+    "query": "where is the department",
+    "response": "Ent is located at 1st Floor, Block C."
+  },
+  {
+    "query": "college",
+    "response": "Sorry, I could not find that department."
+  },
+  {
+    "query": "summarise",
+    "response": "Sorry, I could not find that department."
+  },
+  {
+    "query": "summarise",
+    "response": "Sorry, I could not find that department."
+  },
+  {
+    "query": "summarise",
+    "response": "Sorry, I could not find that department."
+  },
+  {
+    "query": "summarise",
+    "response": "Sorry, I could not find that department."
+  },
+  {
+    "query": "cardiology",
+    "response": "Please ask about location, timing, or contact."
+  },
+  {
+    "query": "where is Cardiology",
+    "response": "Cardiology is located at 2nd Floor, Block A."
+  },
+  {
+    "query": "ENT number",
+    "response": "Ent contact number is 044-4210 1110."
+  },
+  {
+    "query": "Hospital",
+    "response": "Sorry, I could not find that department."
+  },
+  {
+    "query": "Hospital",
+    "response": "Sorry, I could not find that department."
+  },
+  {
+    "query": "where is Cardiology",
+    "response": "Cardiology is located at 2nd Floor, Block A."
+  },
+  {
+    "query": "where is Cardiology",
+    "response": "Cardiology is located at 2nd Floor, Block A."
+  }
+]
