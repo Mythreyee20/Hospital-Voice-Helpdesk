@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 import speech_recognition as sr
 from audio_recorder_streamlit import audio_recorder
-import wave
+
 
 st.title("🏥 Hospital Voice Helpdesk")
 

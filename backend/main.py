@@ -5,18 +5,32 @@ from transformers import pipeline
 
 app = FastAPI()
 
-with open("../data/hospital_data.json", "r") as f:
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+DATA_FILE = os.path.join(
+    BASE_DIR,
+    "..",
+    "data",
+    "hospital_data.json"
+)
+
+HISTORY_FILE = os.path.join(
+    BASE_DIR,
+    "..",
+    "data",
+    "history.json"
+)
+
+with open(DATA_FILE, "r", encoding="utf-8") as f:
     hospital_data = json.load(f)
 
-HISTORY_FILE = "../data/history.json"
-
 if not os.path.exists(HISTORY_FILE):
-    with open(HISTORY_FILE, "w") as f:
+    with open(HISTORY_FILE, "w", encoding="utf-8") as f:
         json.dump([], f)
 
 summarizer = pipeline(
     "summarization",
-    model="google/pegasus-xsum"
+    model="sshleifer/distilbart-cnn-12-6"
 )
 
 
@@ -61,7 +75,7 @@ def detect_intent(text):
 
 
 def save_history(query, response):
-    with open(HISTORY_FILE, "r") as f:
+    with open(HISTORY_FILE, "r", encoding="utf-8") as f:
         history = json.load(f)
 
     history.append({
@@ -69,7 +83,7 @@ def save_history(query, response):
         "response": response
     })
 
-    with open(HISTORY_FILE, "w") as f:
+    with open(HISTORY_FILE, "w", encoding="utf-8") as f:
         json.dump(history, f, indent=2)
 
 
@@ -135,7 +149,7 @@ def summarize(text: str):
 
 @app.get("/history")
 def get_history():
-    with open(HISTORY_FILE, "r") as f:
+    with open(HISTORY_FILE, "r", encoding="utf-8") as f:
         history = json.load(f)
 
     return history

@@ -90,5 +90,9 @@
   {
     "query": "where is Cardiology",
     "response": "Cardiology is located at 2nd Floor, Block A."
+  },
+  {
+    "query": "ent number",
+    "response": "Ent contact number is 044-4210 1110."
   }
 ]
